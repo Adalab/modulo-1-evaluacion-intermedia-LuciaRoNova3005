@@ -63,6 +63,7 @@ main {
   .menu {
     display: flex;
     flex-direction: row;
+    width: 50%;
   }
   .texto {
     font-size: 40px;
