@@ -8,7 +8,6 @@ main {
   justify-content: center;
   align-items: center;
   margin: auto;
-
   width: 100%;
 }
 .logo {
@@ -35,6 +34,7 @@ main {
   box-sizing: border-box;
   margin: 10px 10px 13px;
   color: #4a4a4a;
+  text-decoration: none;
 }
 .fondo {
   box-sizing: border-box;
@@ -46,12 +46,15 @@ main {
 }
 .texto {
   margin: auto;
-  font-size: 40px;
+  font-size: 30px;
+  color: #ffffff;
 }
 @media all and (min-width: 768px) {
   .head {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    margin-right: 30px;
   }
   .logo {
     box-sizing: border-box;
@@ -60,5 +63,8 @@ main {
   .menu {
     display: flex;
     flex-direction: row;
+  }
+  .texto {
+    font-size: 40px;
   }
 }
