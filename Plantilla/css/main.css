@@ -17,7 +17,7 @@ main {
   align-items: center;
   justify-content: center;
   margin: auto;
-  width: 100%;
+  width: 100%vw;
 }
 .menu {
   box-sizing: border-box;
@@ -32,7 +32,7 @@ main {
   font-family: "Rubik", sans-serif;
   font-size: 16px;
   box-sizing: border-box;
-  margin: 10px 10px;
+  margin: 10px 10px 13px;
   color: #4a4a4a;
 }
 .fondo {
@@ -46,4 +46,5 @@ main {
 }
 .texto {
   margin: auto;
+  font-size: 40px;
 }
