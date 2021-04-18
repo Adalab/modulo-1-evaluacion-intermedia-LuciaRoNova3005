@@ -58,6 +58,7 @@
   color: white;
   text-transform: capitalize;
   line-height: 1.5;
+  vertical-align: center;
 }
 
 @media all and (min-width: 768px) {
