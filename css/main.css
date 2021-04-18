@@ -2,6 +2,7 @@
   font-family: "Rubik", sans-serif;
   font-size: 16px;
 }
+
 .head {
   box-sizing: border-box;
   background-color: white;
@@ -12,6 +13,7 @@
   width: 100vw;
   position: fixed;
   top: 0;
+  left: 0;
 }
 .logo {
   width: 155px;
@@ -33,7 +35,7 @@
 .menu-link {
   box-sizing: border-box;
   display: block;
-  margin: 10px 10px 13px;
+  margin: 0 10px 10px 13px;
 }
 .link {
   text-decoration: none;
@@ -42,7 +44,7 @@
 }
 .main {
   background-color: #3cdbc0;
-  width: 100%;
+  color: #fff;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -52,6 +54,7 @@
   font-size: 30px;
   text-align: center;
   word-spacing: 100vw;
+  font-weight: bold;
   color: white;
   text-transform: capitalize;
   line-height: 1.5;
@@ -64,13 +67,14 @@
     justify-content: space-between;
     align-items: center;
   }
+
   .logo {
     margin: 20px 0 20px 20px;
   }
   .menu {
     display: flex;
     flex-direction: row;
-    width: 50%;
+    width: 25%;
     text-align: center;
     justify-content: space-evenly;
   }
@@ -81,6 +85,6 @@
     margin-right: 10px;
   }
   .menu-link {
-    margin-right: 20px;
+    padding-bottom: 0;
   }
 }
